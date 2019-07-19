@@ -12,7 +12,8 @@ namespace Calculador
 {
     public partial class LDO : Form
     {
-       
+
+        
         public LDO()
         {
             InitializeComponent();
