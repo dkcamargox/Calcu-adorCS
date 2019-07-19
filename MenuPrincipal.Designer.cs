@@ -48,7 +48,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(410, 33);
             this.label1.TabIndex = 0;
-            this.label1.Text = "CALCULADOR DA LEI DE EAI\r\n\r\n";
+            this.label1.Text = "CALCULADOR DA LEI DE OHM\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
