@@ -26,3 +26,17 @@ C:\Users\grava\Desktop\Git_CalculadorCS\Calculador\obj\Debug\Calculador.exe
 C:\Users\grava\Desktop\Git_CalculadorCS\Calculador\obj\Debug\Calculador.pdb
 C:\Users\grava\Desktop\Git_CalculadorCS\Calculador\obj\Debug\Calculador.PolToRec.resources
 C:\Users\grava\Desktop\ProjetosVS\Calculador\Calculador\obj\Debug\Calculador.PolToRec.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\bin\Debug\Calculador.exe.config
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\bin\Debug\Calculador.exe
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\bin\Debug\Calculador.pdb
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.csprojAssemblyReference.cache
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.PolToRec.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.LDO.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.MenuPrincipal.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.Properties.Resources.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.ResisParalelo.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.ResisSerie.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.csproj.GenerateResource.cache
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.csproj.CoreCompileInputs.cache
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.exe
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.pdb
