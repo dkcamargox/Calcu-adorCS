@@ -38,19 +38,19 @@
             this.label4 = new System.Windows.Forms.Label();
             this.resultadoreal = new System.Windows.Forms.Label();
             this.resultadoimaginario = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.titlePolToRec = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // partereal
             // 
-            this.partereal.Location = new System.Drawing.Point(155, 117);
+            this.partereal.Location = new System.Drawing.Point(180, 121);
             this.partereal.Name = "partereal";
             this.partereal.Size = new System.Drawing.Size(154, 20);
             this.partereal.TabIndex = 0;
             // 
             // parteangular
             // 
-            this.parteangular.Location = new System.Drawing.Point(176, 166);
+            this.parteangular.Location = new System.Drawing.Point(201, 170);
             this.parteangular.Name = "parteangular";
             this.parteangular.Size = new System.Drawing.Size(154, 20);
             this.parteangular.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // btn
             // 
-            this.btn.Location = new System.Drawing.Point(363, 117);
+            this.btn.Location = new System.Drawing.Point(452, 117);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(154, 52);
             this.btn.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 117);
+            this.label1.Location = new System.Drawing.Point(37, 121);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(117, 16);
             this.label1.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 170);
+            this.label2.Location = new System.Drawing.Point(37, 174);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 16);
             this.label2.TabIndex = 4;
@@ -90,7 +90,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(234, 215);
+            this.label3.Location = new System.Drawing.Point(259, 219);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 16);
             this.label3.TabIndex = 5;
@@ -101,7 +101,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(342, 215);
+            this.label4.Location = new System.Drawing.Point(367, 219);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 16);
             this.label4.TabIndex = 6;
@@ -112,7 +112,7 @@
             // 
             this.resultadoreal.AutoSize = true;
             this.resultadoreal.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultadoreal.Location = new System.Drawing.Point(250, 247);
+            this.resultadoreal.Location = new System.Drawing.Point(275, 251);
             this.resultadoreal.Name = "resultadoreal";
             this.resultadoreal.Size = new System.Drawing.Size(26, 29);
             this.resultadoreal.TabIndex = 7;
@@ -123,30 +123,30 @@
             // 
             this.resultadoimaginario.AutoSize = true;
             this.resultadoimaginario.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultadoimaginario.Location = new System.Drawing.Point(358, 247);
+            this.resultadoimaginario.Location = new System.Drawing.Point(383, 251);
             this.resultadoimaginario.Name = "resultadoimaginario";
             this.resultadoimaginario.Size = new System.Drawing.Size(32, 29);
             this.resultadoimaginario.TabIndex = 8;
             this.resultadoimaginario.Text = "j0";
             this.resultadoimaginario.Click += new System.EventHandler(this.Resultadoimaginario_Click);
             // 
-            // label5
+            // titlePolToRec
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(68, 29);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(421, 36);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "POLAR PARA RETANGULAR";
+            this.titlePolToRec.AutoSize = true;
+            this.titlePolToRec.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titlePolToRec.Location = new System.Drawing.Point(135, 21);
+            this.titlePolToRec.Name = "titlePolToRec";
+            this.titlePolToRec.Size = new System.Drawing.Size(421, 36);
+            this.titlePolToRec.TabIndex = 9;
+            this.titlePolToRec.Text = "POLAR PARA RETANGULAR";
             // 
             // PolToRec
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(566, 332);
-            this.Controls.Add(this.label5);
+            this.ClientSize = new System.Drawing.Size(697, 350);
+            this.Controls.Add(this.titlePolToRec);
             this.Controls.Add(this.resultadoimaginario);
             this.Controls.Add(this.resultadoreal);
             this.Controls.Add(this.label4);
@@ -175,7 +175,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label resultadoreal;
         private System.Windows.Forms.Label resultadoimaginario;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label titlePolToRec;
     }
 }
 
