@@ -18,6 +18,7 @@ namespace Calculador
         private ResisParalelo resisParalelo;
         private LDO ldo;
         private PolToRec poltorec;
+        private RecToPol RecToPol;
         private static bool aberto_form = false;
         public static void abriu()
         {
@@ -78,6 +79,17 @@ namespace Calculador
                 poltorec = new PolToRec();
                 poltorec.Show();
                 
+            }
+        }
+
+        private void BtnRecToPol_Click(object sender, EventArgs e)
+        {
+            if (!aberto_form)
+            {
+                aberto_form = true;
+                RecToPol = new RecToPol();
+                RecToPol.Show();
+
             }
         }
     }
