@@ -15,7 +15,11 @@ namespace Calculador
 
         //teste dog
 
-        
+        public void testandoumacoisa()
+        {
+            int a = 5;
+
+        }
         public LDO()
         {
             InitializeComponent();
