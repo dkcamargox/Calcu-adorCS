@@ -13,13 +13,7 @@ namespace Calculador
     public partial class LDO : Form
     {
 
-        //teste dog
-
-        public void testandoumacoisa()
-        {
-            int a = 5;
-
-        }
+        
         public LDO()
         {
             InitializeComponent();
