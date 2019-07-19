@@ -36,6 +36,7 @@
             this.btRparalelo = new System.Windows.Forms.Button();
             this.btSair = new System.Windows.Forms.Button();
             this.btPolRec = new System.Windows.Forms.Button();
+            this.btnRecToPol = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -112,6 +113,16 @@
             this.btPolRec.UseVisualStyleBackColor = true;
             this.btPolRec.Click += new System.EventHandler(this.BtPolRec_Click);
             // 
+            // btnRecToPol
+            // 
+            this.btnRecToPol.Location = new System.Drawing.Point(251, 203);
+            this.btnRecToPol.Name = "btnRecToPol";
+            this.btnRecToPol.Size = new System.Drawing.Size(121, 23);
+            this.btnRecToPol.TabIndex = 17;
+            this.btnRecToPol.Text = "Retangular para Polar";
+            this.btnRecToPol.UseVisualStyleBackColor = true;
+            this.btnRecToPol.Click += new System.EventHandler(this.BtnRecToPol_Click);
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -120,6 +131,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(566, 332);
+            this.Controls.Add(this.btnRecToPol);
             this.Controls.Add(this.btPolRec);
             this.Controls.Add(this.btSair);
             this.Controls.Add(this.btRparalelo);
@@ -146,6 +158,7 @@
         private System.Windows.Forms.Button btRparalelo;
         private System.Windows.Forms.Button btSair;
         private System.Windows.Forms.Button btPolRec;
+        private System.Windows.Forms.Button btnRecToPol;
     }
 }
 

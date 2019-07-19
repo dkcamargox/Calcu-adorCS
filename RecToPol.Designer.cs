@@ -46,7 +46,7 @@
             // 
             this.titleRecToPol.AutoSize = true;
             this.titleRecToPol.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleRecToPol.Location = new System.Drawing.Point(135, 22);
+            this.titleRecToPol.Location = new System.Drawing.Point(77, 20);
             this.titleRecToPol.Name = "titleRecToPol";
             this.titleRecToPol.Size = new System.Drawing.Size(421, 36);
             this.titleRecToPol.TabIndex = 10;
@@ -56,7 +56,7 @@
             // 
             this.resultado2RecToPol.AutoSize = true;
             this.resultado2RecToPol.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultado2RecToPol.Location = new System.Drawing.Point(385, 247);
+            this.resultado2RecToPol.Location = new System.Drawing.Point(305, 250);
             this.resultado2RecToPol.Name = "resultado2RecToPol";
             this.resultado2RecToPol.Size = new System.Drawing.Size(47, 29);
             this.resultado2RecToPol.TabIndex = 19;
@@ -66,7 +66,7 @@
             // 
             this.resultado1RecToPol.AutoSize = true;
             this.resultado1RecToPol.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultado1RecToPol.Location = new System.Drawing.Point(277, 247);
+            this.resultado1RecToPol.Location = new System.Drawing.Point(197, 250);
             this.resultado1RecToPol.Name = "resultado1RecToPol";
             this.resultado1RecToPol.Size = new System.Drawing.Size(26, 29);
             this.resultado1RecToPol.TabIndex = 18;
@@ -76,7 +76,7 @@
             // 
             this.labelRecToPol4.AutoSize = true;
             this.labelRecToPol4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRecToPol4.Location = new System.Drawing.Point(369, 215);
+            this.labelRecToPol4.Location = new System.Drawing.Point(289, 218);
             this.labelRecToPol4.Name = "labelRecToPol4";
             this.labelRecToPol4.Size = new System.Drawing.Size(92, 16);
             this.labelRecToPol4.TabIndex = 17;
@@ -86,7 +86,7 @@
             // 
             this.labelRecToPol3.AutoSize = true;
             this.labelRecToPol3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRecToPol3.Location = new System.Drawing.Point(261, 215);
+            this.labelRecToPol3.Location = new System.Drawing.Point(181, 218);
             this.labelRecToPol3.Name = "labelRecToPol3";
             this.labelRecToPol3.Size = new System.Drawing.Size(75, 16);
             this.labelRecToPol3.TabIndex = 16;
@@ -96,7 +96,7 @@
             // 
             this.labelRecToPol2.AutoSize = true;
             this.labelRecToPol2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRecToPol2.Location = new System.Drawing.Point(39, 170);
+            this.labelRecToPol2.Location = new System.Drawing.Point(20, 170);
             this.labelRecToPol2.Name = "labelRecToPol2";
             this.labelRecToPol2.Size = new System.Drawing.Size(157, 16);
             this.labelRecToPol2.TabIndex = 15;
@@ -106,7 +106,7 @@
             // 
             this.labelRecToPol1.AutoSize = true;
             this.labelRecToPol1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRecToPol1.Location = new System.Drawing.Point(39, 117);
+            this.labelRecToPol1.Location = new System.Drawing.Point(20, 117);
             this.labelRecToPol1.Name = "labelRecToPol1";
             this.labelRecToPol1.Size = new System.Drawing.Size(117, 16);
             this.labelRecToPol1.TabIndex = 14;
@@ -114,7 +114,7 @@
             // 
             // btnRecToPol
             // 
-            this.btnRecToPol.Location = new System.Drawing.Point(434, 117);
+            this.btnRecToPol.Location = new System.Drawing.Point(361, 117);
             this.btnRecToPol.Name = "btnRecToPol";
             this.btnRecToPol.Size = new System.Drawing.Size(154, 52);
             this.btnRecToPol.TabIndex = 13;
@@ -124,21 +124,21 @@
             // 
             // parteIMAGINARIA1
             // 
-            this.parteIMAGINARIA1.Location = new System.Drawing.Point(203, 166);
+            this.parteIMAGINARIA1.Location = new System.Drawing.Point(184, 166);
             this.parteIMAGINARIA1.Name = "parteIMAGINARIA1";
             this.parteIMAGINARIA1.Size = new System.Drawing.Size(154, 20);
             this.parteIMAGINARIA1.TabIndex = 12;
             // 
             // parteREAL1
             // 
-            this.parteREAL1.Location = new System.Drawing.Point(182, 117);
+            this.parteREAL1.Location = new System.Drawing.Point(163, 117);
             this.parteREAL1.Name = "parteREAL1";
             this.parteREAL1.Size = new System.Drawing.Size(154, 20);
             this.parteREAL1.TabIndex = 11;
             // 
             // btSair
             // 
-            this.btSair.Location = new System.Drawing.Point(567, 266);
+            this.btSair.Location = new System.Drawing.Point(458, 257);
             this.btSair.Name = "btSair";
             this.btSair.Size = new System.Drawing.Size(75, 23);
             this.btSair.TabIndex = 20;
@@ -151,7 +151,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(692, 351);
+            this.ClientSize = new System.Drawing.Size(566, 332);
             this.ControlBox = false;
             this.Controls.Add(this.btSair);
             this.Controls.Add(this.resultado2RecToPol);
