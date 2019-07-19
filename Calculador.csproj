@@ -84,6 +84,12 @@
     <Compile Include="ResisSerie.Designer.cs">
       <DependentUpon>ResisSerie.cs</DependentUpon>
     </Compile>
+    <Compile Include="serieACrec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="serieACrec.Designer.cs">
+      <DependentUpon>serieACrec.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="PolToRec.resx">
       <DependentUpon>PolToRec.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ResisSerie.resx">
       <DependentUpon>ResisSerie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serieACrec.resx">
+      <DependentUpon>serieACrec.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

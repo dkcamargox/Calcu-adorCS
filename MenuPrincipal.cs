@@ -19,6 +19,7 @@ namespace Calculador
         private LDO ldo;
         private PolToRec poltorec;
         private RecToPol RecToPol;
+        private serieACrec SerieACrec;
         private static bool aberto_form = false;
         public static void abriu()
         {
@@ -96,6 +97,17 @@ namespace Calculador
         private void Label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnSerieACrec_Click(object sender, EventArgs e)
+        {
+            if (!aberto_form)
+            {
+                aberto_form = true;
+                SerieACrec = new serieACrec();
+                SerieACrec.Show();
+
+            }
         }
     }
 }
