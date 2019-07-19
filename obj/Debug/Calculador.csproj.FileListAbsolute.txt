@@ -55,3 +55,4 @@ C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.csproj.Gener
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.csproj.CoreCompileInputs.cache
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.exe
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.pdb
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.RecToPol.resources

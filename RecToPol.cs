@@ -30,5 +30,16 @@ namespace Calculador
             resultado2RecToPol.Text = "L" + Convert.ToString(entrada12) + "°";
 
         }
+
+        private void RecToPol_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtSair_Click(object sender, EventArgs e)
+        {
+            Close();
+            MenuPrincipal.fecho();
+        }
     }
 }

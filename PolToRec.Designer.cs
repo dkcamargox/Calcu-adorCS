@@ -39,6 +39,7 @@
             this.resultadoreal = new System.Windows.Forms.Label();
             this.resultadoimaginario = new System.Windows.Forms.Label();
             this.titlePolToRec = new System.Windows.Forms.Label();
+            this.btSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // partereal
@@ -140,12 +141,24 @@
             this.titlePolToRec.TabIndex = 9;
             this.titlePolToRec.Text = "POLAR PARA RETANGULAR";
             // 
+            // btSair
+            // 
+            this.btSair.Location = new System.Drawing.Point(575, 273);
+            this.btSair.Name = "btSair";
+            this.btSair.Size = new System.Drawing.Size(75, 23);
+            this.btSair.TabIndex = 10;
+            this.btSair.Text = "Sair";
+            this.btSair.UseVisualStyleBackColor = true;
+            this.btSair.Click += new System.EventHandler(this.BtSair_Click);
+            // 
             // PolToRec
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(697, 350);
+            this.ControlBox = false;
+            this.Controls.Add(this.btSair);
             this.Controls.Add(this.titlePolToRec);
             this.Controls.Add(this.resultadoimaginario);
             this.Controls.Add(this.resultadoreal);
@@ -176,6 +189,7 @@
         private System.Windows.Forms.Label resultadoreal;
         private System.Windows.Forms.Label resultadoimaginario;
         private System.Windows.Forms.Label titlePolToRec;
+        private System.Windows.Forms.Button btSair;
     }
 }
 

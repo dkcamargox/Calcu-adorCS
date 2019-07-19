@@ -39,6 +39,7 @@
             this.btnRecToPol = new System.Windows.Forms.Button();
             this.parteIMAGINARIA1 = new System.Windows.Forms.TextBox();
             this.parteREAL1 = new System.Windows.Forms.TextBox();
+            this.btSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // titleRecToPol
@@ -135,12 +136,24 @@
             this.parteREAL1.Size = new System.Drawing.Size(154, 20);
             this.parteREAL1.TabIndex = 11;
             // 
+            // btSair
+            // 
+            this.btSair.Location = new System.Drawing.Point(567, 266);
+            this.btSair.Name = "btSair";
+            this.btSair.Size = new System.Drawing.Size(75, 23);
+            this.btSair.TabIndex = 20;
+            this.btSair.Text = "Sair";
+            this.btSair.UseVisualStyleBackColor = true;
+            this.btSair.Click += new System.EventHandler(this.BtSair_Click);
+            // 
             // RecToPol
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(692, 351);
+            this.ControlBox = false;
+            this.Controls.Add(this.btSair);
             this.Controls.Add(this.resultado2RecToPol);
             this.Controls.Add(this.resultado1RecToPol);
             this.Controls.Add(this.labelRecToPol4);
@@ -153,6 +166,7 @@
             this.Controls.Add(this.titleRecToPol);
             this.Name = "RecToPol";
             this.Text = "Retangular para Polar";
+            this.Load += new System.EventHandler(this.RecToPol_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,5 +184,6 @@
         private System.Windows.Forms.Button btnRecToPol;
         private System.Windows.Forms.TextBox parteIMAGINARIA1;
         private System.Windows.Forms.TextBox parteREAL1;
+        private System.Windows.Forms.Button btSair;
     }
 }

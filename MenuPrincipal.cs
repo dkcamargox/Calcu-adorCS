@@ -77,7 +77,7 @@ namespace Calculador
                 aberto_form = true;
                 poltorec = new PolToRec();
                 poltorec.Show();
-                //hello
+                
             }
         }
     }

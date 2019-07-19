@@ -76,5 +76,11 @@ namespace Calculador
         {
 
         }
+
+        private void BtSair_Click(object sender, EventArgs e)
+        {
+            Close();
+            MenuPrincipal.fecho();
+        }
     }
 }

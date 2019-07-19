@@ -155,6 +155,7 @@
             this.BackgroundImage = global::Calculador.Properties.Resources.peter_pó;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(566, 332);
+            this.ControlBox = false;
             this.Controls.Add(this.btLimpa);
             this.Controls.Add(this.lbl_resultado);
             this.Controls.Add(this.entrada_2);
