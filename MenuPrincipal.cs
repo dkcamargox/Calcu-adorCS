@@ -10,7 +10,6 @@ using System.Windows.Forms;
 
 namespace Calculador
 {
-    //marca
     public partial class MenuPrincipal : Form
     {
         
