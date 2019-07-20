@@ -12,6 +12,7 @@ namespace Calculador
 {
     public partial class RecToPol : Form
     {
+        //marca
         public RecToPol()
         {
             InitializeComponent();
