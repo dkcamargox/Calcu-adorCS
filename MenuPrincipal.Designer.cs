@@ -38,6 +38,7 @@
             this.btPolRec = new System.Windows.Forms.Button();
             this.btnRecToPol = new System.Windows.Forms.Button();
             this.btnSerieACrec = new System.Windows.Forms.Button();
+            this.btnParaleloACrec = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -129,11 +130,21 @@
             // 
             this.btnSerieACrec.Location = new System.Drawing.Point(251, 252);
             this.btnSerieACrec.Name = "btnSerieACrec";
-            this.btnSerieACrec.Size = new System.Drawing.Size(75, 23);
+            this.btnSerieACrec.Size = new System.Drawing.Size(121, 23);
             this.btnSerieACrec.TabIndex = 19;
-            this.btnSerieACrec.Text = "Série AC";
+            this.btnSerieACrec.Text = "Série AC Ret.";
             this.btnSerieACrec.UseVisualStyleBackColor = true;
             this.btnSerieACrec.Click += new System.EventHandler(this.BtnSerieACrec_Click);
+            // 
+            // btnParaleloACrec
+            // 
+            this.btnParaleloACrec.Location = new System.Drawing.Point(251, 297);
+            this.btnParaleloACrec.Name = "btnParaleloACrec";
+            this.btnParaleloACrec.Size = new System.Drawing.Size(121, 23);
+            this.btnParaleloACrec.TabIndex = 21;
+            this.btnParaleloACrec.Text = "Paralelo AC Ret.";
+            this.btnParaleloACrec.UseVisualStyleBackColor = true;
+            this.btnParaleloACrec.Click += new System.EventHandler(this.BtnParaleloACrec_Click);
             // 
             // MenuPrincipal
             // 
@@ -143,6 +154,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(566, 332);
+            this.Controls.Add(this.btnParaleloACrec);
             this.Controls.Add(this.btnSerieACrec);
             this.Controls.Add(this.btnRecToPol);
             this.Controls.Add(this.btPolRec);
@@ -173,6 +185,7 @@
         private System.Windows.Forms.Button btPolRec;
         private System.Windows.Forms.Button btnRecToPol;
         private System.Windows.Forms.Button btnSerieACrec;
+        private System.Windows.Forms.Button btnParaleloACrec;
     }
 }
 
