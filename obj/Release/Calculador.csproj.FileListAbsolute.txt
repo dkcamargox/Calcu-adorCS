@@ -1,0 +1,16 @@
+C:\Users\Günter\Documents\GitHub\CalculadorCS\bin\Release\Calculador.exe.config
+C:\Users\Günter\Documents\GitHub\CalculadorCS\bin\Release\Calculador.exe
+C:\Users\Günter\Documents\GitHub\CalculadorCS\bin\Release\Calculador.pdb
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.csprojAssemblyReference.cache
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.PolToRec.resources
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.LDO.resources
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.MenuPrincipal.resources
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.Properties.Resources.resources
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.RecToPol.resources
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.ResisParalelo.resources
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.ResisSerie.resources
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.serieACrec.resources
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.csproj.GenerateResource.cache
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.csproj.CoreCompileInputs.cache
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.exe
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Release\Calculador.pdb

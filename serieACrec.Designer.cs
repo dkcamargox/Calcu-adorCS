@@ -204,7 +204,7 @@
             this.Controls.Add(this.im1);
             this.Controls.Add(this.real1);
             this.Name = "serieACrec";
-            this.Text = "Associador em série AC";
+            this.Text = "Associador em série AC retangular";
             this.Load += new System.EventHandler(this.SerieACrec_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
