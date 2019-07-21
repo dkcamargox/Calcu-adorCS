@@ -58,3 +58,5 @@ C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.pdb
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.RecToPol.resources
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.serieACrec.resources
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.paraleloACrec.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.paraleloACrec.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.serieACrec.resources
