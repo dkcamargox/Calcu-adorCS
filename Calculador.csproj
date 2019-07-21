@@ -90,6 +90,12 @@
     <Compile Include="ResisSerie.Designer.cs">
       <DependentUpon>ResisSerie.cs</DependentUpon>
     </Compile>
+    <Compile Include="serieACpol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="serieACpol.Designer.cs">
+      <DependentUpon>serieACpol.cs</DependentUpon>
+    </Compile>
     <Compile Include="serieACrec.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ResisSerie.resx">
       <DependentUpon>ResisSerie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serieACpol.resx">
+      <DependentUpon>serieACpol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="serieACrec.resx">
       <DependentUpon>serieACrec.cs</DependentUpon>
