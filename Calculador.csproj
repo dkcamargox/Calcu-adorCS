@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="paraleloACpol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paraleloACpol.Designer.cs">
+      <DependentUpon>paraleloACpol.cs</DependentUpon>
+    </Compile>
     <Compile Include="paraleloACrec.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     <Compile Include="serieACrec.Designer.cs">
       <DependentUpon>serieACrec.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="paraleloACpol.resx">
+      <DependentUpon>paraleloACpol.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="paraleloACrec.resx">
       <DependentUpon>paraleloACrec.cs</DependentUpon>
     </EmbeddedResource>

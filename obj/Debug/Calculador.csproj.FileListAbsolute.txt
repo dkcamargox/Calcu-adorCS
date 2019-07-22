@@ -64,3 +64,4 @@ C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.serieACpol.r
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.paraleloACrec.resources
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.serieACrec.resources
 >>>>>>> e9bd7c96679a912dd9cf277c0e0de446f4b73c72
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.paraleloACpol.resources

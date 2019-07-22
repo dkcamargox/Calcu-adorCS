@@ -145,11 +145,11 @@
             // 
             this.labelrecserietitulo.AutoSize = true;
             this.labelrecserietitulo.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelrecserietitulo.Location = new System.Drawing.Point(77, 24);
+            this.labelrecserietitulo.Location = new System.Drawing.Point(52, 27);
             this.labelrecserietitulo.Name = "labelrecserietitulo";
-            this.labelrecserietitulo.Size = new System.Drawing.Size(420, 36);
+            this.labelrecserietitulo.Size = new System.Drawing.Size(445, 36);
             this.labelrecserietitulo.TabIndex = 12;
-            this.labelrecserietitulo.Text = "ASSOCIADOR EM SÉRIE AC";
+            this.labelrecserietitulo.Text = "ASSOCIADOR EM SÉRIE RET.";
             // 
             // btnCALCULArecserie
             // 

@@ -78,11 +78,11 @@
             // 
             this.labelrecparalelotitulo.AutoSize = true;
             this.labelrecparalelotitulo.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelrecparalelotitulo.Location = new System.Drawing.Point(44, 21);
+            this.labelrecparalelotitulo.Location = new System.Drawing.Point(26, 19);
             this.labelrecparalelotitulo.Name = "labelrecparalelotitulo";
-            this.labelrecparalelotitulo.Size = new System.Drawing.Size(491, 36);
+            this.labelrecparalelotitulo.Size = new System.Drawing.Size(516, 36);
             this.labelrecparalelotitulo.TabIndex = 25;
-            this.labelrecparalelotitulo.Text = "ASSOCIADOR EM PARALELO AC";
+            this.labelrecparalelotitulo.Text = "ASSOCIADOR EM PARALELO RET.";
             // 
             // resultadorecparalelo
             // 

@@ -21,6 +21,7 @@ namespace Calculador
         private serieACrec SerieACrec;
         private paraleloACrec paraleloACrec;
         private serieACpol SerieACpol;
+        private paraleloACpol ParaleloACpol;
         private static bool aberto_form = false;
         public static void abriu()
         {
@@ -129,6 +130,17 @@ namespace Calculador
                 aberto_form = true;
                 SerieACpol = new serieACpol();
                 SerieACpol.Show();
+
+            }
+        }
+
+        private void BtnParaleloACpol_Click(object sender, EventArgs e)
+        {
+            if (!aberto_form)
+            {
+                aberto_form = true;
+                ParaleloACpol = new paraleloACpol();
+                ParaleloACpol.Show();
 
             }
         }

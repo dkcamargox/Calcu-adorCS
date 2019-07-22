@@ -78,11 +78,11 @@
             // 
             this.labelpolserietitulo.AutoSize = true;
             this.labelpolserietitulo.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelpolserietitulo.Location = new System.Drawing.Point(63, 33);
+            this.labelpolserietitulo.Location = new System.Drawing.Point(40, 23);
             this.labelpolserietitulo.Name = "labelpolserietitulo";
-            this.labelpolserietitulo.Size = new System.Drawing.Size(420, 36);
+            this.labelpolserietitulo.Size = new System.Drawing.Size(482, 36);
             this.labelpolserietitulo.TabIndex = 25;
-            this.labelpolserietitulo.Text = "ASSOCIADOR EM SÉRIE AC";
+            this.labelpolserietitulo.Text = "ASSOCIADOR EM SÉRIE POLAR";
             // 
             // resultadopolserie
             // 

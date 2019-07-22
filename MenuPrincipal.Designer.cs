@@ -40,6 +40,7 @@
             this.btnSerieACrec = new System.Windows.Forms.Button();
             this.btnParaleloACrec = new System.Windows.Forms.Button();
             this.btnSerieACpol = new System.Windows.Forms.Button();
+            this.btnParaleloACpol = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -157,6 +158,16 @@
             this.btnSerieACpol.UseVisualStyleBackColor = true;
             this.btnSerieACpol.Click += new System.EventHandler(this.BtnSerieACpol_Click);
             // 
+            // btnParaleloACpol
+            // 
+            this.btnParaleloACpol.Location = new System.Drawing.Point(312, 200);
+            this.btnParaleloACpol.Name = "btnParaleloACpol";
+            this.btnParaleloACpol.Size = new System.Drawing.Size(121, 23);
+            this.btnParaleloACpol.TabIndex = 25;
+            this.btnParaleloACpol.Text = "Paralelo AC Pol.";
+            this.btnParaleloACpol.UseVisualStyleBackColor = true;
+            this.btnParaleloACpol.Click += new System.EventHandler(this.BtnParaleloACpol_Click);
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -165,6 +176,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(566, 332);
+            this.Controls.Add(this.btnParaleloACpol);
             this.Controls.Add(this.btnSerieACpol);
             this.Controls.Add(this.btnParaleloACrec);
             this.Controls.Add(this.btnSerieACrec);
@@ -199,6 +211,7 @@
         private System.Windows.Forms.Button btnSerieACrec;
         private System.Windows.Forms.Button btnParaleloACrec;
         private System.Windows.Forms.Button btnSerieACpol;
+        private System.Windows.Forms.Button btnParaleloACpol;
     }
 }
 
