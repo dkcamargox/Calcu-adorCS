@@ -28,7 +28,7 @@ namespace Calculador
             resultado11 = Math.Round(Math.Sqrt(Math.Pow(entrada11, 2) + Math.Pow(entrada12, 2)), 2);
 
             resultado1RecToPol.Text = Convert.ToString(resultado11);
-            resultado2RecToPol.Text = "L" + Convert.ToString(entrada12) + "°";
+            resultado2RecToPol.Text = Convert.ToString(entrada12) + "°";
 
         }
 
@@ -41,6 +41,16 @@ namespace Calculador
         {
             Close();
             MenuPrincipal.fecho();
+        }
+
+        private void ParteIMAGINARIA1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Resultado2RecToPol_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
