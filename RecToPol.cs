@@ -20,15 +20,18 @@ namespace Calculador
 
         private void BtnRecToPol_Click(object sender, EventArgs e)
         {
-            double entrada11, entrada12, resultado11;
+            double entrada11, entrada12, resultado11 , resultado12;
 
             entrada11 = Double.Parse(parteREAL1.Text);
             entrada12 = Double.Parse(parteIMAGINARIA1.Text);
 
             resultado11 = Math.Round(Math.Sqrt(Math.Pow(entrada11, 2) + Math.Pow(entrada12, 2)), 2);
-
+            
+            resultado12 = Math.Atan(entrada11 / entrada12) * (180 / Math.PI);
             resultado1RecToPol.Text = Convert.ToString(resultado11);
-            resultado2RecToPol.Text = Convert.ToString(entrada12) + "°";
+
+            resultado2RecToPol.Text = "L" + Convert.ToString(resultado12) + "°";
+
 
         }
 

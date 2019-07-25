@@ -60,3 +60,4 @@ C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.serieACrec.r
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.paraleloACrec.resources
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.paraleloACrec.resources
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.serieACrec.resources
+C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.LDOAC.resources

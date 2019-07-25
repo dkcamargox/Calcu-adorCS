@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LDOAC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LDOAC.Designer.cs">
+      <DependentUpon>LDOAC.cs</DependentUpon>
+    </Compile>
     <Compile Include="paraleloACrec.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     <Compile Include="serieACrec.Designer.cs">
       <DependentUpon>serieACrec.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="LDOAC.resx">
+      <DependentUpon>LDOAC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="paraleloACrec.resx">
       <DependentUpon>paraleloACrec.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +157,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\peter pó.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda5.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
