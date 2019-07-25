@@ -46,9 +46,10 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label1.Font = new System.Drawing.Font("NSimSun", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(28, 22);
+            this.label1.Location = new System.Drawing.Point(42, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(410, 33);
+            this.label1.Size = new System.Drawing.Size(615, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "CALCULADOR DA LEI DE OHM\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -59,18 +60,20 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label2.Font = new System.Drawing.Font("NSimSun", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(28, 75);
+            this.label2.Location = new System.Drawing.Point(201, 110);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(238, 33);
+            this.label2.Size = new System.Drawing.Size(357, 51);
             this.label2.TabIndex = 1;
             this.label2.Text = "MENU PRINCIPAL";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btDC
             // 
-            this.btDC.Location = new System.Drawing.Point(137, 152);
+            this.btDC.Location = new System.Drawing.Point(142, 204);
+            this.btDC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btDC.Name = "btDC";
-            this.btDC.Size = new System.Drawing.Size(75, 23);
+            this.btDC.Size = new System.Drawing.Size(148, 55);
             this.btDC.TabIndex = 2;
             this.btDC.Text = "Lei de Ohm";
             this.btDC.UseVisualStyleBackColor = true;
@@ -78,9 +81,10 @@
             // 
             // btRserie
             // 
-            this.btRserie.Location = new System.Drawing.Point(137, 252);
+            this.btRserie.Location = new System.Drawing.Point(326, 204);
+            this.btRserie.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btRserie.Name = "btRserie";
-            this.btRserie.Size = new System.Drawing.Size(75, 23);
+            this.btRserie.Size = new System.Drawing.Size(148, 55);
             this.btRserie.TabIndex = 5;
             this.btRserie.Text = "Série DC";
             this.btRserie.UseVisualStyleBackColor = true;
@@ -88,9 +92,10 @@
             // 
             // btRparalelo
             // 
-            this.btRparalelo.Location = new System.Drawing.Point(137, 203);
+            this.btRparalelo.Location = new System.Drawing.Point(521, 204);
+            this.btRparalelo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btRparalelo.Name = "btRparalelo";
-            this.btRparalelo.Size = new System.Drawing.Size(75, 23);
+            this.btRparalelo.Size = new System.Drawing.Size(148, 55);
             this.btRparalelo.TabIndex = 6;
             this.btRparalelo.Text = "Paralelo DC";
             this.btRparalelo.UseVisualStyleBackColor = true;
@@ -98,9 +103,10 @@
             // 
             // btSair
             // 
-            this.btSair.Location = new System.Drawing.Point(419, 252);
+            this.btSair.Location = new System.Drawing.Point(628, 388);
+            this.btSair.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btSair.Name = "btSair";
-            this.btSair.Size = new System.Drawing.Size(75, 23);
+            this.btSair.Size = new System.Drawing.Size(148, 55);
             this.btSair.TabIndex = 13;
             this.btSair.Text = "Sair";
             this.btSair.UseVisualStyleBackColor = true;
@@ -108,9 +114,10 @@
             // 
             // btPolRec
             // 
-            this.btPolRec.Location = new System.Drawing.Point(251, 152);
+            this.btPolRec.Location = new System.Drawing.Point(326, 285);
+            this.btPolRec.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btPolRec.Name = "btPolRec";
-            this.btPolRec.Size = new System.Drawing.Size(121, 23);
+            this.btPolRec.Size = new System.Drawing.Size(148, 55);
             this.btPolRec.TabIndex = 15;
             this.btPolRec.Text = "Polar para Retangular";
             this.btPolRec.UseVisualStyleBackColor = true;
@@ -118,9 +125,10 @@
             // 
             // btnRecToPol
             // 
-            this.btnRecToPol.Location = new System.Drawing.Point(251, 203);
+            this.btnRecToPol.Location = new System.Drawing.Point(142, 285);
+            this.btnRecToPol.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRecToPol.Name = "btnRecToPol";
-            this.btnRecToPol.Size = new System.Drawing.Size(121, 23);
+            this.btnRecToPol.Size = new System.Drawing.Size(148, 55);
             this.btnRecToPol.TabIndex = 17;
             this.btnRecToPol.Text = "Retangular para Polar";
             this.btnRecToPol.UseVisualStyleBackColor = true;
@@ -128,9 +136,10 @@
             // 
             // btnSerieACrec
             // 
-            this.btnSerieACrec.Location = new System.Drawing.Point(251, 252);
+            this.btnSerieACrec.Location = new System.Drawing.Point(142, 372);
+            this.btnSerieACrec.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSerieACrec.Name = "btnSerieACrec";
-            this.btnSerieACrec.Size = new System.Drawing.Size(121, 23);
+            this.btnSerieACrec.Size = new System.Drawing.Size(148, 55);
             this.btnSerieACrec.TabIndex = 19;
             this.btnSerieACrec.Text = "Série AC Ret.";
             this.btnSerieACrec.UseVisualStyleBackColor = true;
@@ -138,9 +147,10 @@
             // 
             // btnParaleloACrec
             // 
-            this.btnParaleloACrec.Location = new System.Drawing.Point(251, 297);
+            this.btnParaleloACrec.Location = new System.Drawing.Point(326, 372);
+            this.btnParaleloACrec.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnParaleloACrec.Name = "btnParaleloACrec";
-            this.btnParaleloACrec.Size = new System.Drawing.Size(121, 23);
+            this.btnParaleloACrec.Size = new System.Drawing.Size(148, 55);
             this.btnParaleloACrec.TabIndex = 21;
             this.btnParaleloACrec.Text = "Paralelo AC Ret.";
             this.btnParaleloACrec.UseVisualStyleBackColor = true;
@@ -148,12 +158,12 @@
             // 
             // MenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSalmon;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(566, 332);
+            this.ClientSize = new System.Drawing.Size(849, 511);
             this.Controls.Add(this.btnParaleloACrec);
             this.Controls.Add(this.btnSerieACrec);
             this.Controls.Add(this.btnRecToPol);
@@ -166,6 +176,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculador da Lei de Ohm";
