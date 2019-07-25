@@ -54,5 +54,20 @@ namespace Calculador
             Close();
             MenuPrincipal.fecho();
         }
+
+        private void Resultadorecserie_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Labelrecserie2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Labelrecserie3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
