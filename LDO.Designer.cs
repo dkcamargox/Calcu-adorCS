@@ -43,9 +43,10 @@
             // 
             // btSair
             // 
-            this.btSair.Location = new System.Drawing.Point(464, 285);
+            this.btSair.Location = new System.Drawing.Point(671, 434);
+            this.btSair.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btSair.Name = "btSair";
-            this.btSair.Size = new System.Drawing.Size(75, 23);
+            this.btSair.Size = new System.Drawing.Size(148, 55);
             this.btSair.TabIndex = 5;
             this.btSair.Text = "Sair";
             this.btSair.UseVisualStyleBackColor = true;
@@ -53,9 +54,10 @@
             // 
             // CalcTensão
             // 
-            this.CalcTensão.Location = new System.Drawing.Point(12, 116);
+            this.CalcTensão.Location = new System.Drawing.Point(18, 176);
+            this.CalcTensão.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CalcTensão.Name = "CalcTensão";
-            this.CalcTensão.Size = new System.Drawing.Size(198, 17);
+            this.CalcTensão.Size = new System.Drawing.Size(297, 46);
             this.CalcTensão.TabIndex = 6;
             this.CalcTensão.TabStop = true;
             this.CalcTensão.Text = "Calcular a Tensão ( V = R . I )";
@@ -64,9 +66,10 @@
             // 
             // CalcCorrente
             // 
-            this.CalcCorrente.Location = new System.Drawing.Point(12, 152);
+            this.CalcCorrente.Location = new System.Drawing.Point(18, 317);
+            this.CalcCorrente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CalcCorrente.Name = "CalcCorrente";
-            this.CalcCorrente.Size = new System.Drawing.Size(198, 17);
+            this.CalcCorrente.Size = new System.Drawing.Size(297, 42);
             this.CalcCorrente.TabIndex = 7;
             this.CalcCorrente.TabStop = true;
             this.CalcCorrente.Text = "Calcular a Corrente ( I = V / R )";
@@ -75,10 +78,10 @@
             // 
             // CalcResis
             // 
-            this.CalcResis.AutoSize = true;
-            this.CalcResis.Location = new System.Drawing.Point(12, 186);
+            this.CalcResis.Location = new System.Drawing.Point(18, 245);
+            this.CalcResis.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CalcResis.Name = "CalcResis";
-            this.CalcResis.Size = new System.Drawing.Size(198, 17);
+            this.CalcResis.Size = new System.Drawing.Size(297, 47);
             this.CalcResis.TabIndex = 8;
             this.CalcResis.TabStop = true;
             this.CalcResis.Text = "Calculador a Resistencia ( R = V / I )";
@@ -90,9 +93,10 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label1.Font = new System.Drawing.Font("NSimSun", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(69, 21);
+            this.label1.Location = new System.Drawing.Point(104, 32);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(421, 73);
+            this.label1.Size = new System.Drawing.Size(632, 112);
             this.label1.TabIndex = 10;
             this.label1.Text = "CALCULADOR DA LEI DE OHM PARA SINAIS CONTINUOS";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -100,9 +104,10 @@
             // 
             // btCalcula
             // 
-            this.btCalcula.Location = new System.Drawing.Point(464, 211);
+            this.btCalcula.Location = new System.Drawing.Point(359, 434);
+            this.btCalcula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btCalcula.Name = "btCalcula";
-            this.btCalcula.Size = new System.Drawing.Size(75, 23);
+            this.btCalcula.Size = new System.Drawing.Size(148, 55);
             this.btCalcula.TabIndex = 11;
             this.btCalcula.Text = "Calcula";
             this.btCalcula.UseVisualStyleBackColor = true;
@@ -111,9 +116,10 @@
             // entrada_1
             // 
             this.entrada_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.entrada_1.Location = new System.Drawing.Point(246, 133);
+            this.entrada_1.Location = new System.Drawing.Point(410, 226);
+            this.entrada_1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.entrada_1.Name = "entrada_1";
-            this.entrada_1.Size = new System.Drawing.Size(244, 20);
+            this.entrada_1.Size = new System.Drawing.Size(365, 26);
             this.entrada_1.TabIndex = 12;
             this.entrada_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.entrada_1.TextChanged += new System.EventHandler(this.Entrada_2_TextChanged);
@@ -121,9 +127,10 @@
             // entrada_2
             // 
             this.entrada_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.entrada_2.Location = new System.Drawing.Point(246, 171);
+            this.entrada_2.Location = new System.Drawing.Point(410, 276);
+            this.entrada_2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.entrada_2.Name = "entrada_2";
-            this.entrada_2.Size = new System.Drawing.Size(244, 20);
+            this.entrada_2.Size = new System.Drawing.Size(365, 26);
             this.entrada_2.TabIndex = 13;
             this.entrada_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.entrada_2.TextChanged += new System.EventHandler(this.Entrada_2_TextChanged_1);
@@ -132,17 +139,19 @@
             // 
             this.lbl_resultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl_resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_resultado.Location = new System.Drawing.Point(136, 262);
+            this.lbl_resultado.Location = new System.Drawing.Point(410, 374);
+            this.lbl_resultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_resultado.Name = "lbl_resultado";
-            this.lbl_resultado.Size = new System.Drawing.Size(244, 23);
+            this.lbl_resultado.Size = new System.Drawing.Size(365, 34);
             this.lbl_resultado.TabIndex = 14;
             this.lbl_resultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btLimpa
             // 
-            this.btLimpa.Location = new System.Drawing.Point(464, 240);
+            this.btLimpa.Location = new System.Drawing.Point(515, 434);
+            this.btLimpa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btLimpa.Name = "btLimpa";
-            this.btLimpa.Size = new System.Drawing.Size(75, 23);
+            this.btLimpa.Size = new System.Drawing.Size(148, 55);
             this.btLimpa.TabIndex = 15;
             this.btLimpa.Text = "Limpa";
             this.btLimpa.UseVisualStyleBackColor = true;
@@ -150,11 +159,11 @@
             // 
             // LDO
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Calculador.Properties.Resources.peter_pó;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(566, 332);
+            this.ClientSize = new System.Drawing.Size(849, 511);
             this.ControlBox = false;
             this.Controls.Add(this.btLimpa);
             this.Controls.Add(this.lbl_resultado);
@@ -167,6 +176,7 @@
             this.Controls.Add(this.CalcTensão);
             this.Controls.Add(this.btSair);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LDO";
             this.Text = "Calculador da Lei de Ohm para DC";
             this.Load += new System.EventHandler(this.LDO_Load);
