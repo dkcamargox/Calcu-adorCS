@@ -30,7 +30,7 @@ namespace Calculador
             resultado12 = Math.Atan(entrada11 / entrada12) * (180 / Math.PI);
             resultado1RecToPol.Text = Convert.ToString(resultado11);
 
-            resultado2RecToPol.Text = "L" + Convert.ToString(resultado12) + "°";
+            resultado2RecToPol.Text = Convert.ToString(resultado12) + "°";
 
 
         }
