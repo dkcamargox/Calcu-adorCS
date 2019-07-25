@@ -39,6 +39,7 @@
             this.btnRecToPol = new System.Windows.Forms.Button();
             this.btnSerieACrec = new System.Windows.Forms.Button();
             this.btnParaleloACrec = new System.Windows.Forms.Button();
+            this.btLDOAC = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -146,14 +147,25 @@
             this.btnParaleloACrec.UseVisualStyleBackColor = true;
             this.btnParaleloACrec.Click += new System.EventHandler(this.BtnParaleloACrec_Click);
             // 
+            // btLDOAC
+            // 
+            this.btLDOAC.Location = new System.Drawing.Point(419, 152);
+            this.btLDOAC.Name = "btLDOAC";
+            this.btLDOAC.Size = new System.Drawing.Size(75, 23);
+            this.btLDOAC.TabIndex = 23;
+            this.btLDOAC.Text = "LDO AC";
+            this.btLDOAC.UseVisualStyleBackColor = true;
+            this.btLDOAC.Click += new System.EventHandler(this.BtLDOAC_Click);
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSalmon;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::Calculador.Properties.Resources.foto_foda6;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(566, 332);
+            this.Controls.Add(this.btLDOAC);
             this.Controls.Add(this.btnParaleloACrec);
             this.Controls.Add(this.btnSerieACrec);
             this.Controls.Add(this.btnRecToPol);
@@ -164,6 +176,7 @@
             this.Controls.Add(this.btDC);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Name = "MenuPrincipal";
@@ -186,6 +199,7 @@
         private System.Windows.Forms.Button btnRecToPol;
         private System.Windows.Forms.Button btnSerieACrec;
         private System.Windows.Forms.Button btnParaleloACrec;
+        private System.Windows.Forms.Button btLDOAC;
     }
 }
 

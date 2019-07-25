@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btSair = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btSair
+            // 
+            this.btSair.Location = new System.Drawing.Point(246, 155);
+            this.btSair.Name = "btSair";
+            this.btSair.Size = new System.Drawing.Size(75, 23);
+            this.btSair.TabIndex = 15;
+            this.btSair.Text = "Sair";
+            this.btSair.UseVisualStyleBackColor = true;
+            this.btSair.Click += new System.EventHandler(this.BtSair_Click);
+            // 
+            // LDOACrec
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Calculador.Properties.Resources.foto_foda6;
+            this.ClientSize = new System.Drawing.Size(566, 332);
+            this.ControlBox = false;
+            this.Controls.Add(this.btSair);
+            this.Name = "LDOACrec";
             this.Text = "LDOACrec";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btSair;
     }
 }

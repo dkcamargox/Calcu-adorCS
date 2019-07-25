@@ -63,9 +63,29 @@ namespace Calculador.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap foto_foda0 {
+            get {
+                object obj = ResourceManager.GetObject("foto_foda0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap foto_foda1 {
             get {
                 object obj = ResourceManager.GetObject("foto_foda1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap foto_foda11 {
+            get {
+                object obj = ResourceManager.GetObject("foto_foda11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +126,26 @@ namespace Calculador.Properties {
         internal static System.Drawing.Bitmap foto_foda5 {
             get {
                 object obj = ResourceManager.GetObject("foto_foda5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap foto_foda6 {
+            get {
+                object obj = ResourceManager.GetObject("foto_foda6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap foto_foda8 {
+            get {
+                object obj = ResourceManager.GetObject("foto_foda8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

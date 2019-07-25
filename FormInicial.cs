@@ -10,14 +10,22 @@ using System.Windows.Forms;
 
 namespace Calculador
 {
-    public partial class paraleloACpol : Form
+    public partial class FormInicial : Form
     {
-        public paraleloACpol()
+        private MenuPrincipal mp;
+        public FormInicial()
         {
+            mp = new MenuPrincipal();
             InitializeComponent();
-        }
+            mp.Show();
 
-        private void Button1_Click(object sender, EventArgs e)
+        }
+        public static void fechar()
+        {
+           
+        }
+        
+        private void FormInicial_Load(object sender, EventArgs e)
         {
 
         }

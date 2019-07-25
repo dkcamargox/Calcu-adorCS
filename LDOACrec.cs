@@ -16,5 +16,14 @@ namespace Calculador
         {
             InitializeComponent();
         }
+
+        private void BtSair_Click(object sender, EventArgs e)
+        {
+           
+            MenuPrincipal.fecho();
+            LDOAC.fecho();
+            Close();
+            
+        }
     }
 }

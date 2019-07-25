@@ -15,6 +15,19 @@ namespace Calculador
         public LDOACpol()
         {
             InitializeComponent();
+            
+        }
+
+        private void LDOACpol_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtSair_Click_1(object sender, EventArgs e)
+        {
+            MenuPrincipal.fecho();
+            LDOAC.fecho();
+            Close();
         }
     }
 }

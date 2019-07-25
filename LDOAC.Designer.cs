@@ -48,7 +48,7 @@
             // 
             // btRec
             // 
-            this.btRec.Location = new System.Drawing.Point(142, 172);
+            this.btRec.Location = new System.Drawing.Point(79, 117);
             this.btRec.Name = "btRec";
             this.btRec.Size = new System.Drawing.Size(75, 38);
             this.btRec.TabIndex = 12;
@@ -58,7 +58,7 @@
             // 
             // btPol
             // 
-            this.btPol.Location = new System.Drawing.Point(307, 173);
+            this.btPol.Location = new System.Drawing.Point(364, 117);
             this.btPol.Name = "btPol";
             this.btPol.Size = new System.Drawing.Size(75, 37);
             this.btPol.TabIndex = 13;
@@ -74,6 +74,7 @@
             this.btSair.TabIndex = 14;
             this.btSair.Text = "Sair";
             this.btSair.UseVisualStyleBackColor = true;
+            this.btSair.Click += new System.EventHandler(this.BtSair_Click);
             // 
             // LDOAC
             // 
