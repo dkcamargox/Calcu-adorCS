@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace Calculador
 {
-    public partial class LDOACpol : Form
+    
+    public partial class LDOAC : Form
     {
-        public LDOACpol()
+        public LDOAC()
         {
             InitializeComponent();
+        }
+
+        private void BtPol_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtRec_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
