@@ -12,7 +12,6 @@ namespace Calculador
 {
     public partial class MenuPrincipal : Form
     {
-        
         private ResisSerie resisSerie;
         private ResisParalelo resisParalelo;
         private LDO ldo;
@@ -29,6 +28,7 @@ namespace Calculador
         {
             aberto_form = false;
         }
+        
         public MenuPrincipal()
         {
             InitializeComponent();
