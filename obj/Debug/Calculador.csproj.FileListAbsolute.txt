@@ -68,7 +68,6 @@ C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.serieACrec.r
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.paraleloACpol.resources
 
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.LDOAC.resources
-C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.LDOACpol.resources
-C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.FormInicial.resources
-C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.LDOACrec.resources
+
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.LDOAC.resources
 
