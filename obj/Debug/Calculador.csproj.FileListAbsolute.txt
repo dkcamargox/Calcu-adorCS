@@ -1,4 +1,4 @@
-C:\Users\grava\Desktop\ProjetosVS\Calculador\Calculador\bin\Debug\Calculador.exe.config
+﻿C:\Users\grava\Desktop\ProjetosVS\Calculador\Calculador\bin\Debug\Calculador.exe.config
 C:\Users\grava\Desktop\ProjetosVS\Calculador\Calculador\bin\Debug\Calculador.exe
 C:\Users\grava\Desktop\ProjetosVS\Calculador\Calculador\bin\Debug\Calculador.pdb
 C:\Users\grava\Desktop\ProjetosVS\Calculador\Calculador\obj\Debug\Calculador.csprojAssemblyReference.cache
@@ -58,7 +58,16 @@ C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.pdb
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.RecToPol.resources
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.serieACrec.resources
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.paraleloACrec.resources
+
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.serieACpol.resources
+
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.paraleloACrec.resources
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.serieACrec.resources
+
+ e9bd7c96679a912dd9cf277c0e0de446f4b73c72
+C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.paraleloACpol.resources
+
 C:\Users\grava\Desktop\ProjetosVS\CalculadorCS\obj\Debug\Calculador.LDOAC.resources
+
 C:\Users\Günter\Documents\GitHub\CalculadorCS\obj\Debug\Calculador.LDOAC.resources
+

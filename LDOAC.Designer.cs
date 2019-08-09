@@ -80,9 +80,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.BackgroundImage = global::Calculador.Properties.Resources.peter_pó;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(293, 347);
+
             this.ControlBox = false;
             this.Controls.Add(this.btSair);
             this.Controls.Add(this.btPol);

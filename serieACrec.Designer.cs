@@ -152,6 +152,7 @@
             // 
             // labelrecserietitulo
             // 
+
             this.labelrecserietitulo.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.labelrecserietitulo.Location = new System.Drawing.Point(25, 21);
             this.labelrecserietitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -159,6 +160,7 @@
             this.labelrecserietitulo.Size = new System.Drawing.Size(811, 51);
             this.labelrecserietitulo.TabIndex = 12;
             this.labelrecserietitulo.Text = "ASSOCIADOR EM SÉRIE AC RETANGULAR";
+
             // 
             // btnCALCULArecserie
             // 
