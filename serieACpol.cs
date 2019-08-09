@@ -17,6 +17,7 @@ namespace Calculador
             InitializeComponent();
         }
 
+
         private void BtnCALCULApolserie_Click(object sender, EventArgs e)
         {
             double r11, r12, r21, r22, rt1, rt2, a1, a2, jb1, jb2, at, jbt;
@@ -46,5 +47,6 @@ namespace Calculador
             Close();
             MenuPrincipal.fecho();
         }
+
     }
 }

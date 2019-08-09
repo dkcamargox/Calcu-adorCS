@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(serieACpol));
             this.labelpolserie6 = new System.Windows.Forms.Label();
             this.btnQUITAR = new System.Windows.Forms.Button();
@@ -204,5 +205,6 @@
         private System.Windows.Forms.TextBox real2;
         private System.Windows.Forms.TextBox ang1;
         private System.Windows.Forms.TextBox real1;
+
     }
 }

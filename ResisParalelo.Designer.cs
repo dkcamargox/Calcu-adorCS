@@ -46,9 +46,9 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label4.Font = new System.Drawing.Font("NSimSun", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(53, 9);
+            this.label4.Location = new System.Drawing.Point(50, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(456, 60);
+            this.label4.Size = new System.Drawing.Size(770, 100);
             this.label4.TabIndex = 21;
             this.label4.Text = "ASSOCIADOR DE RESISTORES EM PARALELO";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -56,9 +56,9 @@
             // 
             // btLimpa
             // 
-            this.btLimpa.Location = new System.Drawing.Point(422, 148);
+            this.btLimpa.Location = new System.Drawing.Point(640, 383);
             this.btLimpa.Name = "btLimpa";
-            this.btLimpa.Size = new System.Drawing.Size(75, 23);
+            this.btLimpa.Size = new System.Drawing.Size(148, 55);
             this.btLimpa.TabIndex = 20;
             this.btLimpa.Text = "Limpa";
             this.btLimpa.UseVisualStyleBackColor = true;
@@ -67,10 +67,10 @@
             // label3
             // 
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(96, 218);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(122, 322);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(244, 23);
+            this.label3.Size = new System.Drawing.Size(454, 70);
             this.label3.TabIndex = 19;
             this.label3.Text = "Resultado da Associação";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -79,9 +79,9 @@
             // 
             this.lbl_resultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl_resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_resultado.Location = new System.Drawing.Point(96, 250);
+            this.lbl_resultado.Location = new System.Drawing.Point(122, 421);
             this.lbl_resultado.Name = "lbl_resultado";
-            this.lbl_resultado.Size = new System.Drawing.Size(244, 23);
+            this.lbl_resultado.Size = new System.Drawing.Size(454, 26);
             this.lbl_resultado.TabIndex = 18;
             this.lbl_resultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -89,18 +89,18 @@
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(96, 148);
+            this.label2.Location = new System.Drawing.Point(462, 146);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(244, 23);
+            this.label2.Size = new System.Drawing.Size(303, 76);
             this.label2.TabIndex = 17;
             this.label2.Text = "Inisira o valor do Resistor 2 em Ohms";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btCalcula
             // 
-            this.btCalcula.Location = new System.Drawing.Point(422, 112);
+            this.btCalcula.Location = new System.Drawing.Point(640, 322);
             this.btCalcula.Name = "btCalcula";
-            this.btCalcula.Size = new System.Drawing.Size(75, 23);
+            this.btCalcula.Size = new System.Drawing.Size(148, 55);
             this.btCalcula.TabIndex = 16;
             this.btCalcula.Text = "Calcula";
             this.btCalcula.UseVisualStyleBackColor = true;
@@ -110,18 +110,18 @@
             // 
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(96, 86);
+            this.label1.Location = new System.Drawing.Point(43, 146);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(244, 23);
+            this.label1.Size = new System.Drawing.Size(303, 76);
             this.label1.TabIndex = 15;
             this.label1.Text = "Inisira o valor do Resistor 1 em Ohms";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // entrada_1
             // 
-            this.entrada_1.Location = new System.Drawing.Point(96, 174);
+            this.entrada_1.Location = new System.Drawing.Point(43, 258);
             this.entrada_1.Name = "entrada_1";
-            this.entrada_1.Size = new System.Drawing.Size(244, 20);
+            this.entrada_1.Size = new System.Drawing.Size(303, 26);
             this.entrada_1.TabIndex = 14;
             this.entrada_1.Text = "0Ω";
             this.entrada_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -130,9 +130,9 @@
             // entrada_2
             // 
             this.entrada_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.entrada_2.Location = new System.Drawing.Point(96, 112);
+            this.entrada_2.Location = new System.Drawing.Point(462, 258);
             this.entrada_2.Name = "entrada_2";
-            this.entrada_2.Size = new System.Drawing.Size(244, 20);
+            this.entrada_2.Size = new System.Drawing.Size(303, 26);
             this.entrada_2.TabIndex = 13;
             this.entrada_2.Text = "0Ω";
             this.entrada_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -140,9 +140,9 @@
             // 
             // btSair
             // 
-            this.btSair.Location = new System.Drawing.Point(422, 250);
+            this.btSair.Location = new System.Drawing.Point(640, 444);
             this.btSair.Name = "btSair";
-            this.btSair.Size = new System.Drawing.Size(75, 23);
+            this.btSair.Size = new System.Drawing.Size(148, 55);
             this.btSair.TabIndex = 12;
             this.btSair.Text = "Sair";
             this.btSair.UseVisualStyleBackColor = true;
@@ -152,7 +152,7 @@
             // 
             this.BackgroundImage = global::Calculador.Properties.Resources.peter_pó;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(566, 332);
+            this.ClientSize = new System.Drawing.Size(849, 511);
             this.ControlBox = false;
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btLimpa);

@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,11 +49,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
     <Compile Include="paraleloACpol.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="paraleloACpol.Designer.cs">
       <DependentUpon>paraleloACpol.cs</DependentUpon>
+
+    <Compile Include="LDOAC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LDOAC.Designer.cs">
+      <DependentUpon>LDOAC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LDOACrec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LDOACrec.Designer.cs">
+      <DependentUpon>LDOACrec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LDOACpol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LDOACpol.Designer.cs">
+      <DependentUpon>LDOACpol.cs</DependentUpon>
+
     </Compile>
     <Compile Include="paraleloACrec.cs">
       <SubType>Form</SubType>
@@ -110,6 +133,15 @@
     </Compile>
     <EmbeddedResource Include="paraleloACpol.resx">
       <DependentUpon>paraleloACpol.cs</DependentUpon>
+    <EmbeddedResource Include="LDOAC.resx">
+      <DependentUpon>LDOAC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LDOACrec.resx">
+      <DependentUpon>LDOACrec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LDOACpol.resx">
+      <DependentUpon>LDOACpol.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="paraleloACrec.resx">
       <DependentUpon>paraleloACrec.cs</DependentUpon>
@@ -163,6 +195,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\peter pó.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_foda8.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

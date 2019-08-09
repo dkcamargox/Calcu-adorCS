@@ -12,8 +12,8 @@ namespace Calculador
 {
     public partial class LDO : Form
     {
-
         
+
         public LDO()
         {
             InitializeComponent();
@@ -40,7 +40,7 @@ namespace Calculador
             {
                 entrada_1.Text = "0V";
                 entrada_2.Text = "0A";
-                lbl_resultado.Text = "0Ω";
+                lbl_resultado.Text = "0Ω"; 
             }
         }
 
