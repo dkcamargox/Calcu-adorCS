@@ -13,8 +13,8 @@ namespace Calculador
 
     public partial class LDOAC : Form
     {
-        private LDOACpol ldoACpol;
-        private LDOACrec ldoACrec;
+        private LDOACrec ldoACpol;
+        private LDOACpol ldoACrec;
         private static bool aberto_form = false;
         public static void abriu()
         {
@@ -35,9 +35,9 @@ namespace Calculador
             if(!aberto_form)
             {
                 aberto_form = true;
-                ldoACpol = new LDOACpol();
+                ldoACpol = new LDOACrec();
                 ldoACpol.Show();
-                //Close();
+                Close();
             }
             
         }
@@ -47,9 +47,9 @@ namespace Calculador
             if (!aberto_form)
             {
                 aberto_form = true;
-                ldoACrec = new LDOACrec();
+                ldoACrec = new LDOACpol();
                 ldoACrec.Show();
-              //  Close();
+                Close();
             }
         }
 
@@ -57,6 +57,11 @@ namespace Calculador
         {
             MenuPrincipal.fecho();
             Close();
+        }
+
+        private void LDOAC_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

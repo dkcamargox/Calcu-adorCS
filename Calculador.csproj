@@ -49,29 +49,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormInicial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormInicial.Designer.cs">
-      <DependentUpon>FormInicial.cs</DependentUpon>
-    </Compile>
     <Compile Include="LDOAC.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LDOAC.Designer.cs">
       <DependentUpon>LDOAC.cs</DependentUpon>
     </Compile>
-    <Compile Include="LDOACpol.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LDOACpol.Designer.cs">
-      <DependentUpon>LDOACpol.cs</DependentUpon>
-    </Compile>
     <Compile Include="LDOACrec.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LDOACrec.Designer.cs">
       <DependentUpon>LDOACrec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LDOACpol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LDOACpol.Designer.cs">
+      <DependentUpon>LDOACpol.cs</DependentUpon>
     </Compile>
     <Compile Include="paraleloACrec.cs">
       <SubType>Form</SubType>
@@ -123,17 +117,14 @@
     <Compile Include="serieACrec.Designer.cs">
       <DependentUpon>serieACrec.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormInicial.resx">
-      <DependentUpon>FormInicial.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LDOAC.resx">
       <DependentUpon>LDOAC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LDOACpol.resx">
-      <DependentUpon>LDOACpol.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LDOACrec.resx">
       <DependentUpon>LDOACrec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LDOACpol.resx">
+      <DependentUpon>LDOACpol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="paraleloACrec.resx">
       <DependentUpon>paraleloACrec.cs</DependentUpon>
