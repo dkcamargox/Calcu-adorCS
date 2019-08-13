@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(paraleloACpol));
             this.labelpolparalelo6 = new System.Windows.Forms.Label();
-            this.btnQUITAR = new System.Windows.Forms.Button();
+            this.btnQUITAR1 = new System.Windows.Forms.Button();
             this.btnCALCULApolparalelo = new System.Windows.Forms.Button();
             this.labelpolparalelotitulo = new System.Windows.Forms.Label();
             this.resultadopolparalelo = new System.Windows.Forms.Label();
@@ -46,29 +45,28 @@
             // 
             // labelpolparalelo6
             // 
-            this.labelpolparalelo6.AutoSize = true;
-            this.labelpolparalelo6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelpolparalelo6.Location = new System.Drawing.Point(125, 277);
+            this.labelpolparalelo6.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.labelpolparalelo6.Location = new System.Drawing.Point(3, 262);
             this.labelpolparalelo6.Name = "labelpolparalelo6";
-            this.labelpolparalelo6.Size = new System.Drawing.Size(79, 18);
+            this.labelpolparalelo6.Size = new System.Drawing.Size(179, 40);
             this.labelpolparalelo6.TabIndex = 41;
             this.labelpolparalelo6.Text = "Resultado:";
             // 
-            // btnQUITAR
+            // btnQUITAR1
             // 
-            this.btnQUITAR.Location = new System.Drawing.Point(417, 277);
-            this.btnQUITAR.Name = "btnQUITAR";
-            this.btnQUITAR.Size = new System.Drawing.Size(68, 27);
-            this.btnQUITAR.TabIndex = 40;
-            this.btnQUITAR.Text = "Sair";
-            this.btnQUITAR.UseVisualStyleBackColor = true;
-            this.btnQUITAR.Click += new System.EventHandler(this.BtnQUITAR_Click);
+            this.btnQUITAR1.Location = new System.Drawing.Point(455, 282);
+            this.btnQUITAR1.Name = "btnQUITAR1";
+            this.btnQUITAR1.Size = new System.Drawing.Size(99, 36);
+            this.btnQUITAR1.TabIndex = 40;
+            this.btnQUITAR1.Text = "Sair";
+            this.btnQUITAR1.UseVisualStyleBackColor = true;
+            this.btnQUITAR1.Click += new System.EventHandler(this.BtnQUITAR1_Click);
             // 
             // btnCALCULApolparalelo
             // 
-            this.btnCALCULApolparalelo.Location = new System.Drawing.Point(226, 196);
+            this.btnCALCULApolparalelo.Location = new System.Drawing.Point(455, 241);
             this.btnCALCULApolparalelo.Name = "btnCALCULApolparalelo";
-            this.btnCALCULApolparalelo.Size = new System.Drawing.Size(127, 51);
+            this.btnCALCULApolparalelo.Size = new System.Drawing.Size(99, 36);
             this.btnCALCULApolparalelo.TabIndex = 39;
             this.btnCALCULApolparalelo.Text = "Calcular";
             this.btnCALCULApolparalelo.UseVisualStyleBackColor = true;
@@ -76,88 +74,82 @@
             // 
             // labelpolparalelotitulo
             // 
-            this.labelpolparalelotitulo.AutoSize = true;
-            this.labelpolparalelotitulo.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelpolparalelotitulo.Location = new System.Drawing.Point(12, 19);
+            this.labelpolparalelotitulo.Font = new System.Drawing.Font("Times New Roman", 18F);
+            this.labelpolparalelotitulo.Location = new System.Drawing.Point(46, 9);
             this.labelpolparalelotitulo.Name = "labelpolparalelotitulo";
-            this.labelpolparalelotitulo.Size = new System.Drawing.Size(553, 36);
+            this.labelpolparalelotitulo.Size = new System.Drawing.Size(464, 34);
             this.labelpolparalelotitulo.TabIndex = 38;
-            this.labelpolparalelotitulo.Text = "ASSOCIADOR EM PARALELO POLAR";
+            this.labelpolparalelotitulo.Text = "ASSOCIADOR EM PARALELO AC POLAR";
             // 
             // resultadopolparalelo
             // 
-            this.resultadopolparalelo.AutoSize = true;
-            this.resultadopolparalelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultadopolparalelo.Location = new System.Drawing.Point(258, 272);
+            this.resultadopolparalelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.resultadopolparalelo.Location = new System.Drawing.Point(211, 262);
             this.resultadopolparalelo.Name = "resultadopolparalelo";
-            this.resultadopolparalelo.Size = new System.Drawing.Size(66, 29);
+            this.resultadopolparalelo.Size = new System.Drawing.Size(202, 40);
             this.resultadopolparalelo.TabIndex = 37;
-            this.resultadopolparalelo.Text = "0 L0°";
+            this.resultadopolparalelo.Text = "0 + 0°";
             // 
             // labelpolparalelo5
             // 
-            this.labelpolparalelo5.AutoSize = true;
             this.labelpolparalelo5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelpolparalelo5.Location = new System.Drawing.Point(300, 155);
+            this.labelpolparalelo5.Location = new System.Drawing.Point(291, 149);
             this.labelpolparalelo5.Name = "labelpolparalelo5";
-            this.labelpolparalelo5.Size = new System.Drawing.Size(250, 16);
+            this.labelpolparalelo5.Size = new System.Drawing.Size(271, 25);
             this.labelpolparalelo5.TabIndex = 36;
-            this.labelpolparalelo5.Text = "Digite a parte angular da 2.ª impedância:";
+            this.labelpolparalelo5.Text = "Digite a parte imaginária da 2.ª impedância:";
             // 
             // labelpolparalelo3
             // 
-            this.labelpolparalelo3.AutoSize = true;
             this.labelpolparalelo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelpolparalelo3.Location = new System.Drawing.Point(17, 155);
+            this.labelpolparalelo3.Location = new System.Drawing.Point(291, 62);
             this.labelpolparalelo3.Name = "labelpolparalelo3";
-            this.labelpolparalelo3.Size = new System.Drawing.Size(250, 16);
+            this.labelpolparalelo3.Size = new System.Drawing.Size(271, 25);
             this.labelpolparalelo3.TabIndex = 35;
-            this.labelpolparalelo3.Text = "Digite a parte angular da 1.ª impedância:";
+            this.labelpolparalelo3.Text = "Digite a parte imaginária da 1.ª impedância:";
             // 
             // labelpolparalelo2
             // 
-            this.labelpolparalelo2.AutoSize = true;
             this.labelpolparalelo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelpolparalelo2.Location = new System.Drawing.Point(316, 91);
+            this.labelpolparalelo2.Location = new System.Drawing.Point(29, 149);
             this.labelpolparalelo2.Name = "labelpolparalelo2";
-            this.labelpolparalelo2.Size = new System.Drawing.Size(228, 16);
+            this.labelpolparalelo2.Size = new System.Drawing.Size(233, 25);
             this.labelpolparalelo2.TabIndex = 34;
             this.labelpolparalelo2.Text = "Digite a parte real da 2.ª impedância:";
             // 
             // labelpolparalelo1
             // 
-            this.labelpolparalelo1.AutoSize = true;
             this.labelpolparalelo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelpolparalelo1.Location = new System.Drawing.Point(38, 91);
+            this.labelpolparalelo1.Location = new System.Drawing.Point(29, 62);
             this.labelpolparalelo1.Name = "labelpolparalelo1";
-            this.labelpolparalelo1.Size = new System.Drawing.Size(228, 16);
+            this.labelpolparalelo1.Size = new System.Drawing.Size(233, 25);
             this.labelpolparalelo1.TabIndex = 33;
             this.labelpolparalelo1.Text = "Digite a parte real da 1.ª impedância:";
             // 
             // ang2
             // 
-            this.ang2.Location = new System.Drawing.Point(359, 174);
+            this.ang2.Location = new System.Drawing.Point(351, 193);
             this.ang2.Name = "ang2";
             this.ang2.Size = new System.Drawing.Size(126, 20);
             this.ang2.TabIndex = 32;
             // 
             // real2
             // 
-            this.real2.Location = new System.Drawing.Point(359, 115);
+            this.real2.Location = new System.Drawing.Point(69, 193);
             this.real2.Name = "real2";
             this.real2.Size = new System.Drawing.Size(126, 20);
             this.real2.TabIndex = 31;
             // 
             // ang1
             // 
-            this.ang1.Location = new System.Drawing.Point(78, 174);
+            this.ang1.Location = new System.Drawing.Point(351, 102);
             this.ang1.Name = "ang1";
             this.ang1.Size = new System.Drawing.Size(126, 20);
             this.ang1.TabIndex = 30;
             // 
             // real1
             // 
-            this.real1.Location = new System.Drawing.Point(78, 115);
+            this.real1.Location = new System.Drawing.Point(69, 102);
             this.real1.Name = "real1";
             this.real1.Size = new System.Drawing.Size(126, 20);
             this.real1.TabIndex = 29;
@@ -166,11 +158,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::Calculador.Properties.Resources.peter_pó;
             this.ClientSize = new System.Drawing.Size(566, 332);
-            this.ControlBox = false;
             this.Controls.Add(this.labelpolparalelo6);
-            this.Controls.Add(this.btnQUITAR);
+            this.Controls.Add(this.btnQUITAR1);
             this.Controls.Add(this.btnCALCULApolparalelo);
             this.Controls.Add(this.labelpolparalelotitulo);
             this.Controls.Add(this.resultadopolparalelo);
@@ -183,7 +174,7 @@
             this.Controls.Add(this.ang1);
             this.Controls.Add(this.real1);
             this.Name = "paraleloACpol";
-            this.Text = "Associador em paralelo AC polar";
+            this.Text = "Associador em paralelo AC Polar";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,7 +183,7 @@
         #endregion
 
         private System.Windows.Forms.Label labelpolparalelo6;
-        private System.Windows.Forms.Button btnQUITAR;
+        private System.Windows.Forms.Button btnQUITAR1;
         private System.Windows.Forms.Button btnCALCULApolparalelo;
         private System.Windows.Forms.Label labelpolparalelotitulo;
         private System.Windows.Forms.Label resultadopolparalelo;

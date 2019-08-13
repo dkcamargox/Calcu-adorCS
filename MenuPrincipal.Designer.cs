@@ -39,12 +39,9 @@
             this.btnRecToPol = new System.Windows.Forms.Button();
             this.btnSerieACrec = new System.Windows.Forms.Button();
             this.btnParaleloACrec = new System.Windows.Forms.Button();
-
-            this.btnSerieACpol = new System.Windows.Forms.Button();
-            this.btnParaleloACpol = new System.Windows.Forms.Button();
-
             this.btLDOAC = new System.Windows.Forms.Button();
-
+            this.btparaleloACpol = new System.Windows.Forms.Button();
+            this.btSérieACpol = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -74,7 +71,7 @@
             // 
             // btDC
             // 
-            this.btDC.Location = new System.Drawing.Point(45, 149);
+            this.btDC.Location = new System.Drawing.Point(73, 152);
             this.btDC.Name = "btDC";
             this.btDC.Size = new System.Drawing.Size(75, 23);
             this.btDC.TabIndex = 2;
@@ -84,7 +81,7 @@
             // 
             // btRserie
             // 
-            this.btRserie.Location = new System.Drawing.Point(45, 249);
+            this.btRserie.Location = new System.Drawing.Point(73, 237);
             this.btRserie.Name = "btRserie";
             this.btRserie.Size = new System.Drawing.Size(75, 23);
             this.btRserie.TabIndex = 5;
@@ -94,7 +91,7 @@
             // 
             // btRparalelo
             // 
-            this.btRparalelo.Location = new System.Drawing.Point(45, 200);
+            this.btRparalelo.Location = new System.Drawing.Point(73, 194);
             this.btRparalelo.Name = "btRparalelo";
             this.btRparalelo.Size = new System.Drawing.Size(75, 23);
             this.btRparalelo.TabIndex = 6;
@@ -104,7 +101,7 @@
             // 
             // btSair
             // 
-            this.btSair.Location = new System.Drawing.Point(479, 297);
+            this.btSair.Location = new System.Drawing.Point(440, 266);
             this.btSair.Name = "btSair";
             this.btSair.Size = new System.Drawing.Size(75, 23);
             this.btSair.TabIndex = 13;
@@ -114,7 +111,7 @@
             // 
             // btPolRec
             // 
-            this.btPolRec.Location = new System.Drawing.Point(159, 149);
+            this.btPolRec.Location = new System.Drawing.Point(394, 181);
             this.btPolRec.Name = "btPolRec";
             this.btPolRec.Size = new System.Drawing.Size(121, 23);
             this.btPolRec.TabIndex = 15;
@@ -124,7 +121,7 @@
             // 
             // btnRecToPol
             // 
-            this.btnRecToPol.Location = new System.Drawing.Point(312, 149);
+            this.btnRecToPol.Location = new System.Drawing.Point(394, 210);
             this.btnRecToPol.Name = "btnRecToPol";
             this.btnRecToPol.Size = new System.Drawing.Size(121, 23);
             this.btnRecToPol.TabIndex = 17;
@@ -134,70 +131,65 @@
             // 
             // btnSerieACrec
             // 
-            this.btnSerieACrec.Location = new System.Drawing.Point(159, 249);
+            this.btnSerieACrec.Location = new System.Drawing.Point(205, 237);
             this.btnSerieACrec.Name = "btnSerieACrec";
-            this.btnSerieACrec.Size = new System.Drawing.Size(121, 23);
+            this.btnSerieACrec.Size = new System.Drawing.Size(145, 23);
             this.btnSerieACrec.TabIndex = 19;
-            this.btnSerieACrec.Text = "Série AC Ret.";
+            this.btnSerieACrec.Text = "Série AC Retangular";
             this.btnSerieACrec.UseVisualStyleBackColor = true;
             this.btnSerieACrec.Click += new System.EventHandler(this.BtnSerieACrec_Click);
             // 
             // btnParaleloACrec
             // 
-            this.btnParaleloACrec.Location = new System.Drawing.Point(159, 200);
+            this.btnParaleloACrec.Location = new System.Drawing.Point(205, 266);
             this.btnParaleloACrec.Name = "btnParaleloACrec";
-            this.btnParaleloACrec.Size = new System.Drawing.Size(121, 23);
+            this.btnParaleloACrec.Size = new System.Drawing.Size(145, 23);
             this.btnParaleloACrec.TabIndex = 21;
-            this.btnParaleloACrec.Text = "Paralelo AC Ret.";
+            this.btnParaleloACrec.Text = "Paralelo AC Retangular";
             this.btnParaleloACrec.UseVisualStyleBackColor = true;
             this.btnParaleloACrec.Click += new System.EventHandler(this.BtnParaleloACrec_Click);
             // 
-
-            // btnSerieACpol
-            // 
-            this.btnSerieACpol.Location = new System.Drawing.Point(312, 249);
-            this.btnSerieACpol.Name = "btnSerieACpol";
-            this.btnSerieACpol.Size = new System.Drawing.Size(121, 23);
-            this.btnSerieACpol.TabIndex = 23;
-            this.btnSerieACpol.Text = "Série AC Pol.";
-            this.btnSerieACpol.UseVisualStyleBackColor = true;
-            this.btnSerieACpol.Click += new System.EventHandler(this.BtnSerieACpol_Click);
-            // 
-            // btnParaleloACpol
-            // 
-            this.btnParaleloACpol.Location = new System.Drawing.Point(312, 200);
-            this.btnParaleloACpol.Name = "btnParaleloACpol";
-            this.btnParaleloACpol.Size = new System.Drawing.Size(121, 23);
-            this.btnParaleloACpol.TabIndex = 25;
-            this.btnParaleloACpol.Text = "Paralelo AC Pol.";
-            this.btnParaleloACpol.UseVisualStyleBackColor = true;
-            this.btnParaleloACpol.Click += new System.EventHandler(this.BtnParaleloACpol_Click);
-
             // btLDOAC
             // 
-            this.btLDOAC.Location = new System.Drawing.Point(419, 152);
+            this.btLDOAC.Location = new System.Drawing.Point(205, 152);
             this.btLDOAC.Name = "btLDOAC";
-            this.btLDOAC.Size = new System.Drawing.Size(75, 23);
+            this.btLDOAC.Size = new System.Drawing.Size(145, 23);
             this.btLDOAC.TabIndex = 23;
-            this.btLDOAC.Text = "LDO AC";
+            this.btLDOAC.Text = "Lei de Ohm AC";
             this.btLDOAC.UseVisualStyleBackColor = true;
             this.btLDOAC.Click += new System.EventHandler(this.BtLDOAC_Click);
-
+            // 
+            // btparaleloACpol
+            // 
+            this.btparaleloACpol.Location = new System.Drawing.Point(205, 181);
+            this.btparaleloACpol.Name = "btparaleloACpol";
+            this.btparaleloACpol.Size = new System.Drawing.Size(145, 23);
+            this.btparaleloACpol.TabIndex = 24;
+            this.btparaleloACpol.Text = "Paralelo AC Polar";
+            this.btparaleloACpol.UseVisualStyleBackColor = true;
+            this.btparaleloACpol.Click += new System.EventHandler(this.BtparaleloACpol_Click);
+            // 
+            // btSérieACpol
+            // 
+            this.btSérieACpol.Location = new System.Drawing.Point(205, 210);
+            this.btSérieACpol.Name = "btSérieACpol";
+            this.btSérieACpol.Size = new System.Drawing.Size(145, 23);
+            this.btSérieACpol.TabIndex = 25;
+            this.btSérieACpol.Text = "Série AC Polar";
+            this.btSérieACpol.UseVisualStyleBackColor = true;
+            this.btSérieACpol.Click += new System.EventHandler(this.BtSérieACpol_Click);
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSalmon;
-            this.BackgroundImage = global::Calculador.Properties.Resources.foto_foda6;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(566, 332);
-
-            this.Controls.Add(this.btnParaleloACpol);
-            this.Controls.Add(this.btnSerieACpol);
-
+            this.Controls.Add(this.btSérieACpol);
+            this.Controls.Add(this.btparaleloACpol);
             this.Controls.Add(this.btLDOAC);
-
             this.Controls.Add(this.btnParaleloACrec);
             this.Controls.Add(this.btnSerieACrec);
             this.Controls.Add(this.btnRecToPol);
@@ -208,7 +200,6 @@
             this.Controls.Add(this.btDC);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Name = "MenuPrincipal";
@@ -231,10 +222,9 @@
         private System.Windows.Forms.Button btnRecToPol;
         private System.Windows.Forms.Button btnSerieACrec;
         private System.Windows.Forms.Button btnParaleloACrec;
-        private System.Windows.Forms.Button btnSerieACpol;
-        private System.Windows.Forms.Button btnParaleloACpol;
         private System.Windows.Forms.Button btLDOAC;
-
+        private System.Windows.Forms.Button btparaleloACpol;
+        private System.Windows.Forms.Button btSérieACpol;
     }
 }
 

@@ -15,8 +15,14 @@ namespace Calculador
         public serieACpol()
         {
             InitializeComponent();
+            MenuPrincipal.abriu();
         }
 
+        private void BtnQUITARpolserie_Click(object sender, EventArgs e)
+        {
+            Close();
+            MenuPrincipal.fecho();
+        }
 
         private void BtnCALCULApolserie_Click(object sender, EventArgs e)
         {
@@ -41,12 +47,5 @@ namespace Calculador
 
             resultadopolserie.Text = Convert.ToString(rt1) + "L" + Convert.ToString(rt2) + "°";
         }
-
-        private void BtnQUITAR_Click(object sender, EventArgs e)
-        {
-            Close();
-            MenuPrincipal.fecho();
-        }
-
     }
 }

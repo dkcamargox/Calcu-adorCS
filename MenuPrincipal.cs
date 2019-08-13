@@ -19,12 +19,9 @@ namespace Calculador
         private RecToPol RecToPol;
         private serieACrec SerieACrec;
         private paraleloACrec paraleloACrec;
-
-        private serieACpol SerieACpol;
+        private LDOAC ldoAC;
         private paraleloACpol ParaleloACpol;
-
-        public LDOAC ldoac;
-
+        private serieACpol SerieACpol;
         private static bool aberto_form = false;
         public static void abriu()
         {
@@ -34,29 +31,29 @@ namespace Calculador
         {
             aberto_form = false;
         }
-
+        
         public MenuPrincipal()
         {
             InitializeComponent();
         }
 
         private void MenuPrincipal_Load(object sender, EventArgs e) { }
-
+        
         private void BtRserie_Click(object sender, EventArgs e)
         {
-            if (!aberto_form)
+            if ( !aberto_form )
             {
-                resisSerie = new ResisSerie();
-                aberto_form = true;
-                resisSerie.Show();
+            resisSerie = new ResisSerie();
+            aberto_form = true;
+            resisSerie.Show();
             }
-
-
+            
+            
         }
 
         private void BtRparalelo_Click(object sender, EventArgs e)
         {
-            if (!aberto_form)
+            if ( !aberto_form )
             {
                 aberto_form = true;
                 resisParalelo = new ResisParalelo();
@@ -66,7 +63,7 @@ namespace Calculador
 
         private void BtDC_Click(object sender, EventArgs e)
         {
-            if (!aberto_form)
+            if ( !aberto_form )
             {
                 aberto_form = true;
                 ldo = new LDO();
@@ -75,18 +72,17 @@ namespace Calculador
         }
         private void BtSair_Click(object sender, EventArgs e)
         {
-            //FormInicial.fechar();
             Close();
         }
 
         private void BtPolRec_Click(object sender, EventArgs e)
         {
-            if (!aberto_form)
+            if (!aberto_form )
             {
                 aberto_form = true;
                 poltorec = new PolToRec();
                 poltorec.Show();
-
+                
             }
         }
 
@@ -128,41 +124,34 @@ namespace Calculador
             }
         }
 
-
-        private void BtnSerieACpol_Click(object sender, EventArgs e)
-        {
-            if (!aberto_form)
-            {
-                aberto_form = true;
-                SerieACpol = new serieACpol();
-                SerieACpol.Show();
-
-            }
-        }
-
-        private void BtnParaleloACpol_Click(object sender, EventArgs e)
-        {
-            if (!aberto_form)
-            {
-                aberto_form = true;
-                ParaleloACpol = new paraleloACpol();
-                ParaleloACpol.Show();
-
-            }
-        }
-
         private void BtLDOAC_Click(object sender, EventArgs e)
         {
-            if(!aberto_form)
+            if (!aberto_form)
             {
+                ldoAC = new LDOAC();
                 aberto_form = true;
-                ldoac = new LDOAC();
-                ldoac.Show();
+                ldoAC.Show();
             }
-            
-            
         }
-        
 
+        private void BtparaleloACpol_Click(object sender, EventArgs e)
+        {
+            if (!aberto_form)
+            {
+                ParaleloACpol = new paraleloACpol();
+                aberto_form = true;
+                ParaleloACpol.Show();
+            }
+        }
+
+        private void BtSérieACpol_Click(object sender, EventArgs e)
+        {
+            if (!aberto_form)
+            {
+                SerieACpol = new serieACpol();
+                aberto_form = true;
+                SerieACpol.Show();
+            }
+        }
     }
 }

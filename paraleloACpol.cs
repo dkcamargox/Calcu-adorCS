@@ -15,6 +15,7 @@ namespace Calculador
         public paraleloACpol()
         {
             InitializeComponent();
+            MenuPrincipal.abriu();
         }
 
         private void BtnCALCULApolparalelo_Click(object sender, EventArgs e)
@@ -46,18 +47,16 @@ namespace Calculador
             rt1 = Math.Round((raux11 / raux21), 2);
             rt2 = Math.Round((raux12 - raux22), 2);
 
-            resultadopolparalelo.Text = Convert.ToString(rt1) + "L" + Convert.ToString(rt2) + "°";
-
-
+            resultadopolparalelo.Text = Convert.ToString(rt1) + " L " + Convert.ToString(rt2) + "°";
 
 
 
         }
 
-        private void BtnQUITAR_Click(object sender, EventArgs e)
+        private void BtnQUITAR1_Click(object sender, EventArgs e)
         {
-            Close();
             MenuPrincipal.fecho();
+            Close();
         }
     }
 }

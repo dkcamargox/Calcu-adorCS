@@ -12,20 +12,93 @@ namespace Calculador
 {
     public partial class LDOACrec : Form
     {
-        private const int tam = 2;
-
         public LDOACrec()
         {
             InitializeComponent();
         }
 
-        
-
         private void BtSair_Click(object sender, EventArgs e)
         {
+           
             MenuPrincipal.fecho();
             LDOAC.fecho();
             Close();
+            
+        }
+
+        private void LDOACpol_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtCalcula_Click(object sender, EventArgs e)
+        {
+            float vR, vC;
+            float rR, rC;
+            float iR, iC;
+
+            if (CalcTensão.Checked)
+            {
+
+                rR = float.Parse(entrada1_R.Text);
+                rC = float.Parse(entrada1_C.Text);
+
+                iR = float.Parse(entrada2_R.Text);
+                iC = float.Parse(entrada2_C.Text);
+
+                /* v[0] = (r[0] * i[0]) - (r[1] * i[1]);
+                 v[1] = (r[1] * i[0]) + (i[1] * r[0]);*/
+
+
+                vR = (rR * iR) - (rC * iC);
+                vC = (rC * iR) + (iC * rR);
+
+                saida_C.Text = "j" + vC.ToString() + "V";
+                saida_R.Text = vR.ToString();
+
+            }
+            if (CalcCorrente.Checked)
+            {
+                //entrada 1 = V
+                //entrada 2 = OHM
+                vR = float.Parse(entrada1_R.Text); //A
+                vC = float.Parse(entrada1_C.Text); //B
+
+                rR = float.Parse(entrada2_R.Text); //C
+                rC = float.Parse(entrada2_C.Text); //D
+
+                /*
+                 * x = (c*(a+d))/(c*c + d*d);
+	             * jy = (b*c-a*d)/(c*c + d*d);]
+                */
+
+                iR = (rR * (vR + rC)) / (rR * rR + rC * rC);
+                iC = (vC * rR - vR * rC) / (rR * rR + rC * rC);
+
+                saida_C.Text = "j" + iC.ToString() + "A";
+                saida_R.Text = iR.ToString();
+            }
+            if (CalcResis.Checked)
+            {
+                //entrada 1 = V
+                //entrada 2 = A
+                vR = float.Parse(entrada1_R.Text); //A
+                vC = float.Parse(entrada1_C.Text); //B
+
+                iR = float.Parse(entrada2_R.Text); //C
+                iC = float.Parse(entrada2_C.Text); //D
+
+                /*
+                 * x = (c*(a+d))/(c*c + d*d);
+	             * jy = (b*c-a*d)/(c*c + d*d);]
+                */
+
+                rR = (iR * (vR + iC)) / (iR * iR + iC * iC);
+                rC = (vC * iR - vR * iC) / (iR * iR + iC * iC);
+
+                saida_C.Text = "j" + rC.ToString() + "Ω";
+                saida_R.Text = rR.ToString();
+            }
         }
 
         private void CalcTensão_CheckedChanged(object sender, EventArgs e)
@@ -43,6 +116,10 @@ namespace Calculador
 
             }
         }
+
+        
+
+        
 
         private void CalcCorrente_CheckedChanged(object sender, EventArgs e)
         {
@@ -89,57 +166,6 @@ namespace Calculador
             entrada2_SI.Text = "";
             saida_R.Text = "";
             saida_C.Text = "";
-        }
-
-        private void BtCalcula_Click(object sender, EventArgs e)
-        {
-            float vR, vC;
-            float rR, rC;
-            float iR, iC;
-            
-            if (CalcTensão.Checked)
-            {
-
-                rR = float.Parse(entrada1_R.Text);
-                rC = float.Parse(entrada1_C.Text);
-
-                iR = float.Parse(entrada2_R.Text);
-                iC = float.Parse(entrada2_C.Text);
-
-               /* v[0] = (r[0] * i[0]) - (r[1] * i[1]);
-                v[1] = (r[1] * i[0]) + (i[1] * r[0]);*/
-
-
-                vR = (rR * iR) - (rC * iC);
-                vC = (rC * iR) + (iC * rR);
-
-                saida_C.Text = vC.ToString();
-                saida_R.Text = vR.ToString();
-
-            }
-            /*if (CalcResis.Checked)
-            {
-                valor1 = float.Parse(entrada_1.Text.Split('V')[0]);
-                valor2 = float.Parse(entrada_2.Text.Split('A')[0]);
-
-                resposta = valor1 / valor2;
-
-                lbl_resultado.Text = resposta.ToString() + " Ω";
-            }
-            if (CalcCorrente.Checked)
-            {
-                valor1 = float.Parse(entrada_1.Text.Split('V')[0]);
-                valor2 = float.Parse(entrada_2.Text.Split('Ω')[0]);
-
-                resposta = valor1 / valor2;
-
-                lbl_resultado.Text = resposta.ToString() + " A";
-            }*/
-        }
-
-        private void Entrada1_R_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

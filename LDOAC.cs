@@ -13,9 +13,11 @@ namespace Calculador
 
     public partial class LDOAC : Form
     {
-        private LDOACrec ldoACpol;
-        private LDOACpol ldoACrec;
+        private LDOACpol ldoACpol;
+        private LDOACrec ldoACrec;
         private static bool aberto_form = false;
+
+        
         public static void abriu()
         {
             aberto_form = true;
@@ -35,7 +37,7 @@ namespace Calculador
             if(!aberto_form)
             {
                 aberto_form = true;
-                ldoACpol = new LDOACrec();
+                ldoACpol = new LDOACpol();
                 ldoACpol.Show();
                 Close();
             }
@@ -47,7 +49,7 @@ namespace Calculador
             if (!aberto_form)
             {
                 aberto_form = true;
-                ldoACrec = new LDOACpol();
+                ldoACrec = new LDOACrec();
                 ldoACrec.Show();
                 Close();
             }

@@ -17,7 +17,7 @@ namespace Calculador
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LDOACrec());
+            Application.Run(new MenuPrincipal());
         }
     }
 }
